@@ -1,2 +1,0 @@
-# asdkjbkasd
-*asdaskjdhkasd
