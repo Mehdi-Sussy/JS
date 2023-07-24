@@ -1,2 +1,0 @@
-# In this js Project, i was assigned to launch a simple calculator with 4 baisc operations with IsNan (a Function property) and If conditions.
-I also did a little trick and write my isNaN function a little bit more optimal comparing with tutor's.
