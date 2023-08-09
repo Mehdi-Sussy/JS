@@ -1,6 +1,6 @@
 function WordFinder(sentence , word){
 
-    if (typeof sentence !=="string" || typeof word !=="string" || sentence.includes(word)) {
+    if (typeof sentence !=="string" && typeof word !=="string" || sentence.includes(word)) {
     
      
     return "done"

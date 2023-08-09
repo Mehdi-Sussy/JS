@@ -1,4 +1,3 @@
-
 function CelsiusToFahrenheitConvertor(Celsius) {
 
 Fahrenheit = (Celsius*(9/5))+32
