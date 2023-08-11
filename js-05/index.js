@@ -1,24 +1,21 @@
-
-
-const Array = []
-
+const array = []
 const addFunction = () => {
-const random = {
-    number : Math.random(),
-    randomDate: function (start,end){
+    function randomDate(start, end) {
         return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
-        
-    },
-    randomWord : ()=>{
-        const things = ['Rock', 'Paper', 'Scissor'];
-        const thing = things[Math.floor(Math.random()*things.length)];
-        console.log('The computer chose:' + thing);
-    }
-}
-Array.push(random)
-console.log(random)
-}
-console.log(Array)
-addFunction()
+      }
+const randomNumber = Math.floor(Math.random() * 1235)
+const words = ["hello","blow","delow","yippie"]
+const randomWords = words[Math.floor(Math.random()* words.length)]
+const randomDate1 = randomDate(new Date(2012, 0, 1), new Date());
 
-randomWord()
+return {randomNumber,
+    randomWords,
+    randomDate1}
+}
+const arrayGenerator = ()=>{
+array.push(addFunction())
+}
+arrayGenerator()
+arrayGenerator()
+console.log(array)
+
