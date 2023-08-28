@@ -1,0 +1,25 @@
+{
+  "name": "js-08",
+  "version": "1.0.0",
+  "description": "HW 8 of js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mehdi-Sussy/js.git"
+  },
+  "author": "Mehdi-Sussy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mehdi-Sussy/js/issues"
+  },
+  "homepage": "https://github.com/Mehdi-Sussy/js#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "flowbite": "^1.8.1"
+  }
+}
