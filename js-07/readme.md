@@ -10,3 +10,9 @@
 ### procedure and challenges: 
 The creation of an array with persons as object and ID editor and add fnnction was like the previous HW so nothing speacial about this.
 the only challenge was sorting with name which i asked chatgpt. the whole concept of sort() method is easy to learn so no challenges.
+
+### Commands for initializing the Project
+1- npm -init
+2- npm i -g typescript
+3- tsc --init 
+4- tsc 
