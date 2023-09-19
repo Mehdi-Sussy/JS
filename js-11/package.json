@@ -1,12 +1,11 @@
 {
-  "name": "js-09-test",
+  "name": "po",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tailwind": "npx tailwindcss -i ./css.css -o ./dist/output.css --watch ",
-    "TS": "tsc -w"
-
+    "tw": "npx tailwindcss -i ./TW.css -o ./dist/output.css --watch",
+    "ts": "tsc -w"
   },
   "author": "",
   "license": "ISC",
